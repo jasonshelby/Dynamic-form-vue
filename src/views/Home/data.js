@@ -2,7 +2,7 @@
 export const headConfig = {
   tableConfig: [
     {
-      colName: '鏄惁閫変腑',
+      colName: '前端选中标识',
       colTag: 'selectedFlag',
       moduleType: '21',
       editable: false,
@@ -17,7 +17,7 @@ export const headConfig = {
       dataSource: null
     },
     {
-      colName: '灞炴�т唬鐮�',
+      colName: '属性代码',
       colTag: 'attributeCode',
       moduleType: '10',
       editable: false,
@@ -25,7 +25,7 @@ export const headConfig = {
       dataSource: null
     },
     {
-      colName: '灞炴�ф弿杩�',
+      colName: '属性描述',
       colTag: 'attributeDesc',
       moduleType: '10',
       editable: false,
@@ -33,7 +33,7 @@ export const headConfig = {
       dataSource: null
     },
     {
-      colName: '灞炴�х被鍨�',
+      colName: '属性类型',
       colTag: 'attributeType',
       moduleType: '12',
       editable: false,
@@ -48,7 +48,7 @@ export const headConfig = {
       dataSource: 'attributeType'
     },
     {
-      colName: '鏄剧ず绫诲瀷',
+      colName: '显示类型',
       colTag: 'displayType',
       moduleType: '12',
       editable: false,
@@ -63,7 +63,7 @@ export const headConfig = {
       dataSource: 'displayType'
     },
     {
-      colName: '鏁版嵁绫诲瀷',
+      colName: '数据类型',
       colTag: 'dataType',
       moduleType: '12',
       editable: false,
@@ -78,7 +78,7 @@ export const headConfig = {
       dataSource: 'dataType'
     },
     {
-      colName: '鏄惁蹇呭～',
+      colName: '前端必填标识',
       colTag: 'requiredFlag',
       moduleType: '21',
       editable: false,
@@ -93,7 +93,7 @@ export const headConfig = {
       dataSource: null
     },
     {
-      colName: '鏄惁鍙紪杈�',
+      colName: '前端可编辑标识',
       colTag: 'editableFlag',
       moduleType: '21',
       editable: true,
@@ -108,7 +108,7 @@ export const headConfig = {
       dataSource: null
     },
     {
-      colName: '鏄惁闅愯棌',
+      colName: '前端隐藏标识',
       colTag: 'hiddenFlag',
       moduleType: '21',
       editable: true,
@@ -123,7 +123,7 @@ export const headConfig = {
       dataSource: null
     },
     {
-      colName: '鍩烘湰灞炴�ч粯璁ゅ��',
+      colName: '基本属性默认值',
       colTag: 'attributeValue',
       moduleType: null,
       editable: false,
@@ -131,7 +131,7 @@ export const headConfig = {
       dataSource: null
     },
     {
-      colName: '灞曠ず鍚嶇О',
+      colName: '前端展示名称',
       colTag: 'attributeName',
       moduleType: '11',
       editable: true,
@@ -146,7 +146,7 @@ export const headConfig = {
       dataSource: null
     },
     {
-      colName: '鏄剧ず椤哄簭',
+      colName: '前端显示顺序',
       colTag: 'seqNo',
       moduleType: '20',
       editable: false,
@@ -155,106 +155,104 @@ export const headConfig = {
     }
   ],
   options: {
-    displayType: [
-      {
-        label: '11',
-        value: '杈撳叆'
-      },
-      {
-        label: '12',
-        value: '鍗曢��'
-      },
-      {
-        label: '13',
-        value: '澶氶��'
-      },
-      {
-        label: '21',
-        value: '鑼冨洿'
-      },
-      {
-        label: '22',
-        value: '琛ㄦ牸'
-      },
-      {
-        label: '23',
-        value: '绾ц仈'
-      }
-    ],
-    moduleType: [
-      {
-        label: '鏂囨湰灞曠ず',
-        value: '10'
-      },
-      {
-        label: '鏂囨湰妗�',
-        value: '11'
-      },
-      {
-        label: '涓嬫媺妗�',
-        value: '12'
-      },
-      {
-        label: '涓嬫媺澶氶�夋',
-        value: '13'
-      },
-      {
-        label: '鏃ユ湡',
-        value: '14'
-      },
-      {
-        label: '鏁板瓧',
-        value: '15'
-      },
-      {
-        label: '鏃堕棿',
-        value: '16'
-      },
-      {
-        label: '绾ц仈',
-        value: '18'
-      },
-      {
-        label: '涓嶇敓鎴�',
-        value: '19'
-      },
-      {
-        label: '涓婁笅鎷栧姩',
-        value: '20'
-      },
-      {
-        label: '鍗曢�夋',
-        value: '21'
-      }
-    ],
-    attributeType: [
-      {
-        label: '1',
-        value: '鍩烘湰'
-      },
-      {
-        label: '2',
-        value: '澶嶅悎'
-      }
-    ],
-    dataType: [
-      {
-        label: '1',
-        value: '瀛楃'
-      },
-      {
-        label: '2',
-        value: '鏁板��'
-      },
-      {
-        label: '3',
-        value: '鏃ユ湡'
-      },
-      {
-        label: '4',
-        value: '鏃堕棿'
-      }
-    ]
+    "moduleType":[
+			{
+				"label": "文本展示",
+				"value": "10"
+			},
+			{
+				"label": "文本框",
+				"value": "11"
+			},
+			{
+				"label": "单选",
+				"value": "12"
+			},
+			{
+				"label": "多选",
+				"value": "13"
+			},
+			{
+				"label": "日期",
+				"value": "14"
+			},
+			{
+				"label": "数字",
+				"value": "15"
+			},
+			{
+				"label": "时间",
+				"value": "16"
+			},
+			{
+				"label": "级联",
+				"value": "18"
+			},
+			{
+				"label": "不生成",
+				"value": "19"
+			},
+			{
+				"label": "顺序",
+				"value": "20"
+			}
+		],
+    "attributeType":[
+			{
+				"label": "基本",
+				"value": "1"
+			},
+			{
+				"label": "复合",
+				"value": "2"
+			}
+		],
+    "displayType":[
+			{
+				"label": "输入",
+				"value": "11"
+			},
+			{
+				"label": "单选",
+				"value": "12"
+			},
+			{
+				"label": "多选",
+				"value": "13"
+			},
+			{
+				"label": "范围",
+				"value": "21"
+			},
+			{
+				"label": "表格",
+				"value": "22"
+			},
+			{
+				"label": "级联",
+				"value": "23"
+			}
+		],
+    "dataType":[
+			{
+				"label": "字符",
+				"value": "1"
+			},
+			{
+				"label": "数值",
+				"value": "2"
+			}
+			,
+			{
+				"label": "日期",
+				"value": "3"
+			}
+			,
+			{
+				"label": "时间",
+				"value": "4"
+			}
+		]
   }
 }
 

@@ -21,22 +21,13 @@
 </template>
 
 <script>
-'use strict'
 import { headConfig, allAttributetable } from './data'
-
-import {
-  prodTplAttrQuery,
-  prodTplAttrApplyQuery,
-  prodtplApply,
-  agreeAddProdInfo,
-  prodInfoDoTask
-} from './viewApi'
 import AttributesMenu from './components/attributesMenu'
 import AttributesTable from './components/attributesTable'
 import { deleteChildrenParent } from '@/utils/productTemplate'
 export default {
   provide: {
-    globalDisabled: true
+    globalDisabled: false
   },
   components: {
     AttributesMenu,
@@ -75,24 +66,9 @@ export default {
       const { templateCode, templateName, kindId } = this.$route.query
       deleteChildrenParent(this.allAttributetable)
 
-      let data = {
-        attrs: this.allAttributetable,
-        applyInfo: this.createdApplyInfo(type),
-        prodTpl: {
-          templateCode,
-          templateName,
-          kindId
-        }
-      }
+      let data = this.allAttributetable
       console.log('发送', data)
-
-      prodtplApply(data).then(res => {
-        if (res.success) {
-          // this.nextCheckerDialogVisible = false
-          this.$message.success('操作成功')
-          this.backToFromPage()
-        }
-      })
+      alert(data)
     },
     validateCurPage() {
       // 如果是详情页，无需校验
@@ -112,23 +88,11 @@ export default {
 }
 </script>
 <style scoped>
-.fun-btn {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  background: #ffffff;
-}
-
-.el-aside {
+/* .el-aside {
   background-color: #fff;
-}
-
-.el-aside,
-.el-main {
-  height: 500px;
 }
 
 .el-aside {
   overflow-x: hidden;
-}
+} */
 </style>

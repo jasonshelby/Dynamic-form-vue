@@ -11,7 +11,7 @@
         width="150"
         :fixed="headConfig.colTag === 'seqNo' ? 'right' : undefined"
         v-for="(headConfig, i) in tableConfigs"
-        :key="i"
+        :key="attributesId + i"
         :prop="headConfig.colTag"
         :label="headConfig.colName"
         :sortable="headConfig.colTag === 'seqNo'"

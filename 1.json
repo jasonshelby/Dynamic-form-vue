@@ -1,0 +1,254 @@
+{
+	"tableConfig":[
+		{
+			"colName":"属性代码",
+			"moduleType":"10",
+			"colTag":"attributeCode"
+		},
+		{
+			"colName":"属性描述",
+			"moduleType":"10",
+			"colTag":"attributeDesc"
+		},
+		{
+			"colName":"属性类型",
+			"moduleType":"12",
+			"colTag":"attributeType",
+			"rule":{
+				"required":true,
+				"editable":false,
+				"hidden":false,
+				"dataSource":"attributeType"
+			}
+		},
+		{
+			"colName":"显示类型",
+			"moduleType":"12",
+			"colTag":"displayType",
+			"rule":{
+				"required":true,
+				"editable":false,
+				"hidden":false,
+				"dataSource":"displayType"
+			}
+		},
+		{
+			"colName":"数据类型",
+			"moduleType":"12",
+			"colTag":"dataType",
+			"rule":{
+				"required":true,
+				"editable":false,
+				"hidden":false,
+				"dataSource":"dataType"
+			}
+		},
+		{
+			"colName":"前端选中标识",
+			"moduleType":"12",
+			"colTag":"selectedFlag",
+			"rule":{
+				"required":true,
+				"editable":false,
+				"hidden":false,
+				"dataSource":"selectedFlag"
+			}
+		},
+		{
+			"colName":"前端必填标识",
+			"moduleType":"12",
+			"colTag":"requiredFlag",
+			"rule":{
+				"required":true,
+				"hidden":false,
+				"dataSource":"requiredFlag"
+			}
+		},
+		{
+			"colName":"前端可编辑标识",
+			"moduleType":"12",
+			"colTag":"editableFlag",
+			"rule":{
+				"required":true,
+				"editable":true,
+				"hidden":false,
+				"dataSource":"trueOrFalse"
+			}
+		},
+		{
+			"colName":"前端隐藏标识",
+			"moduleType":"12",
+			"colTag":"hiddenFlag",
+			"rule":{
+				"required":true,
+				"editable":true,
+				"hidden":false,
+				"dataSource":"trueOrFalse"
+			}
+		},
+		{
+			"colName":"基本属性默认值",
+			"colTag":"attributeValue"
+		},
+		{
+			"colName":"前端展示名称",
+			"displayType":"11",
+			"colTag":"attributeName",
+			"rule":{
+				"required":false,
+				"editable":true,
+				"hidden":false,
+				"maxLength":100,
+				"minLength":0
+			}
+		},
+		{
+			"colName":"前端显示顺序",
+			"displayType":"20",
+			"colTag":"seqNo"
+		}
+	],
+	"options":{
+		"moduleType":[
+			{
+				"label": "文本展示",
+				"value": "10"
+			},
+			{
+				"label": "文本框",
+				"value": "11"
+			},
+			{
+				"label": "单选",
+				"value": "12"
+			},
+			{
+				"label": "多选",
+				"value": "13"
+			},
+			{
+				"label": "日期",
+				"value": "14"
+			},
+			{
+				"label": "数字",
+				"value": "15"
+			},
+			{
+				"label": "时间",
+				"value": "16"
+			},
+			{
+				"label": "级联",
+				"value": "18"
+			},
+			{
+				"label": "不生成",
+				"value": "19"
+			},
+			{
+				"label": "顺序",
+				"value": "20"
+			}
+		],
+		"attributeType":[
+			{
+				"label": "基本",
+				"value": "1"
+			},
+			{
+				"label": "复合",
+				"value": "2"
+			}
+		],
+		"displayType":[
+			{
+				"label": "输入",
+				"value": "11"
+			},
+			{
+				"label": "单选",
+				"value": "12"
+			},
+			{
+				"label": "多选",
+				"value": "13"
+			},
+			{
+				"label": "范围",
+				"value": "21"
+			},
+			{
+				"label": "表格",
+				"value": "22"
+			},
+			{
+				"label": "级联",
+				"value": "23"
+			}
+		],
+		"dataType":[
+			{
+				"label": "字符",
+				"value": "1"
+			},
+			{
+				"label": "数值",
+				"value": "2"
+			}
+			,
+			{
+				"label": "日期",
+				"value": "3"
+			}
+			,
+			{
+				"label": "时间",
+				"value": "4"
+			}
+		],
+		"selectedFlag":[
+			{
+				"label": "未选中",
+				"value": "0"
+			},
+			{
+				"label": "选中",
+				"value": "1"
+			}
+		]
+		,
+		"requiredFlag":[
+			{
+				"label": "非必填",
+				"value": "0"
+			},
+			{
+				"label": "必填",
+				"value": "1"
+			}
+		]
+		,
+		"editableFlag":[
+			{
+				"label": "不可编辑",
+				"value": "0"
+			},
+			{
+				"label": "可编辑",
+				"value": "1"
+			}
+		]
+		,
+		"hiddenFlag":[
+			{
+				"label": "不隐藏",
+				"value": "0"
+			},
+			{
+				"label": "隐藏",
+				"value": "1"
+			}
+		]
+	}
+}
