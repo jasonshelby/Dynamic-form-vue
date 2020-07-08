@@ -17,6 +17,8 @@
         ></AttributesTable>
       </el-main>
     </el-container>
+
+    <el-button @click="submit">导出</el-button>
   </div>
 </template>
 
@@ -58,7 +60,7 @@ export default {
       this.nextCheckerDialogVisible = true
     },
 
-    submitToInterface(type) {
+    submit(type) {
       if (!this.validateCurPage()) {
         // 报错信息
         return false
@@ -67,8 +69,8 @@ export default {
       deleteChildrenParent(this.allAttributetable)
 
       let data = this.allAttributetable
-      console.log('发送', data)
-      alert(data)
+      console.log('数据：', data[this.attributesId])
+      alert(JSON.stringify(data[this.attributesId]))
     },
     validateCurPage() {
       // 如果是详情页，无需校验

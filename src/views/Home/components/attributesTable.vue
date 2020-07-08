@@ -3,7 +3,6 @@
     <el-table
       :data="attributesTable"
       v-if="ifShowTable"
-      height="425"
       style="width: 100%"
       :default-sort="{ prop: 'seqNo'}"
     >

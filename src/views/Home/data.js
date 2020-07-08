@@ -5,7 +5,7 @@ export const headConfig = {
       colName: '前端选中标识',
       colTag: 'selectedFlag',
       moduleType: '21',
-      editable: false,
+      editable: true,
       rule: {
         min: null,
         max: null,
@@ -20,7 +20,7 @@ export const headConfig = {
       colName: '属性代码',
       colTag: 'attributeCode',
       moduleType: '10',
-      editable: false,
+      editable: true,
       rule: null,
       dataSource: null
     },
@@ -28,7 +28,7 @@ export const headConfig = {
       colName: '属性描述',
       colTag: 'attributeDesc',
       moduleType: '10',
-      editable: false,
+      editable: true,
       rule: null,
       dataSource: null
     },
@@ -36,7 +36,7 @@ export const headConfig = {
       colName: '属性类型',
       colTag: 'attributeType',
       moduleType: '12',
-      editable: false,
+      editable: true,
       rule: {
         min: null,
         max: null,
@@ -51,7 +51,7 @@ export const headConfig = {
       colName: '显示类型',
       colTag: 'displayType',
       moduleType: '12',
-      editable: false,
+      editable: true,
       rule: {
         min: null,
         max: null,
@@ -66,7 +66,7 @@ export const headConfig = {
       colName: '数据类型',
       colTag: 'dataType',
       moduleType: '12',
-      editable: false,
+      editable: true,
       rule: {
         min: null,
         max: null,
@@ -81,7 +81,7 @@ export const headConfig = {
       colName: '前端必填标识',
       colTag: 'requiredFlag',
       moduleType: '21',
-      editable: false,
+      editable: true,
       rule: {
         min: null,
         max: null,
@@ -126,7 +126,7 @@ export const headConfig = {
       colName: '基本属性默认值',
       colTag: 'attributeValue',
       moduleType: null,
-      editable: false,
+      editable: true,
       rule: null,
       dataSource: null
     },
@@ -149,7 +149,7 @@ export const headConfig = {
       colName: '前端显示顺序',
       colTag: 'seqNo',
       moduleType: '20',
-      editable: false,
+      editable: true,
       rule: null,
       dataSource: null
     }
@@ -3541,7 +3541,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -3594,7 +3594,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -3634,7 +3634,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -3656,7 +3656,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -3696,7 +3696,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -3718,7 +3718,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -3758,7 +3758,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -3780,7 +3780,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -3820,7 +3820,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -3842,7 +3842,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -3882,7 +3882,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -3904,7 +3904,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -3944,7 +3944,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -3966,7 +3966,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -4006,7 +4006,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -4028,7 +4028,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -4130,7 +4130,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 9999999999,
@@ -4152,7 +4152,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -4214,7 +4214,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -4254,7 +4254,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 9999999999,
@@ -4316,7 +4316,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '13',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -4338,7 +4338,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -4400,7 +4400,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -4440,7 +4440,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -4462,7 +4462,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -4524,7 +4524,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -4564,7 +4564,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -4586,7 +4586,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -4626,7 +4626,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -4648,7 +4648,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -4688,7 +4688,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -4750,7 +4750,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -4812,7 +4812,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -4874,7 +4874,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -4936,7 +4936,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -4998,7 +4998,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 9999999999,
@@ -5082,7 +5082,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -5144,7 +5144,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -5206,7 +5206,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -5568,7 +5568,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '18',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -5784,7 +5784,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -5806,7 +5806,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -5846,7 +5846,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -5868,7 +5868,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -5908,7 +5908,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -5930,7 +5930,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -5970,7 +5970,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -5992,7 +5992,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6032,7 +6032,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -6054,7 +6054,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6094,7 +6094,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -6116,7 +6116,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6156,7 +6156,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -6178,7 +6178,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6218,7 +6218,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -6240,7 +6240,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6280,7 +6280,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -6302,7 +6302,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6342,7 +6342,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -6364,7 +6364,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6404,7 +6404,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -6426,7 +6426,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6466,7 +6466,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -6488,7 +6488,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6528,7 +6528,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -6550,7 +6550,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6590,7 +6590,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -6612,7 +6612,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6666,7 +6666,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6719,7 +6719,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -6781,7 +6781,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -6845,7 +6845,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -6898,7 +6898,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -6938,7 +6938,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -6960,7 +6960,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -7124,7 +7124,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -7146,7 +7146,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -7186,7 +7186,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -7208,7 +7208,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -7248,7 +7248,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -7270,7 +7270,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -7310,7 +7310,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -7332,7 +7332,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -7372,7 +7372,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -7394,7 +7394,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -7434,7 +7434,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -7456,7 +7456,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -7496,7 +7496,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -7518,7 +7518,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -7558,7 +7558,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -7580,7 +7580,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -7942,7 +7942,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -7964,7 +7964,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8026,7 +8026,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8066,7 +8066,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -8088,7 +8088,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8128,7 +8128,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -8150,7 +8150,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8190,7 +8190,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -8212,7 +8212,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8252,7 +8252,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -8274,7 +8274,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8314,7 +8314,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -8336,7 +8336,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8376,7 +8376,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -8398,7 +8398,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8438,7 +8438,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -8460,7 +8460,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8500,7 +8500,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -8522,7 +8522,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8564,7 +8564,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -8586,7 +8586,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8626,7 +8626,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 999999999,
@@ -8648,7 +8648,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8688,7 +8688,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 9999999999,
@@ -8772,7 +8772,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8834,7 +8834,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -8874,7 +8874,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 99999999999999,
@@ -8936,7 +8936,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 100,
@@ -9000,7 +9000,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -9022,7 +9022,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9062,7 +9062,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -9084,7 +9084,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9124,7 +9124,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -9146,7 +9146,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9186,7 +9186,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -9208,7 +9208,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9248,7 +9248,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -9270,7 +9270,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9310,7 +9310,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -9332,7 +9332,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9372,7 +9372,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -9394,7 +9394,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9436,7 +9436,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -9458,7 +9458,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9498,7 +9498,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -9520,7 +9520,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9560,7 +9560,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -9622,7 +9622,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 9999999999,
@@ -9708,7 +9708,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9770,7 +9770,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9832,7 +9832,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -9934,7 +9934,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '14',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -10144,7 +10144,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -10206,7 +10206,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -10392,7 +10392,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -10432,7 +10432,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 9,
@@ -10454,7 +10454,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -10516,7 +10516,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -10618,7 +10618,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -10640,7 +10640,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -10680,7 +10680,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 100,
@@ -10866,7 +10866,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -11004,7 +11004,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -11057,7 +11057,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11097,7 +11097,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -11119,7 +11119,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11181,7 +11181,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11243,7 +11243,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11305,7 +11305,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11367,7 +11367,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11407,7 +11407,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 100,
@@ -11429,7 +11429,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11469,7 +11469,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -11491,7 +11491,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11531,7 +11531,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '11',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -11553,7 +11553,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11593,7 +11593,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -11615,7 +11615,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11655,7 +11655,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -11677,7 +11677,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11717,7 +11717,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -11739,7 +11739,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11779,7 +11779,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -11801,7 +11801,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11841,7 +11841,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -11863,7 +11863,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11903,7 +11903,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -11925,7 +11925,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -11987,7 +11987,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -12027,7 +12027,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -12111,7 +12111,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -12151,7 +12151,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -12173,7 +12173,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -12213,7 +12213,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -12235,7 +12235,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -12275,7 +12275,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -12297,7 +12297,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -12337,7 +12337,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 99999999999999,
@@ -12359,7 +12359,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -12433,7 +12433,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -12495,7 +12495,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -12557,7 +12557,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -12597,7 +12597,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '11',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -12659,7 +12659,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -12681,7 +12681,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -12743,7 +12743,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -12805,7 +12805,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -12867,7 +12867,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -12929,7 +12929,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -12969,7 +12969,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '11',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13031,7 +13031,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '11',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13093,7 +13093,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13115,7 +13115,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -13155,7 +13155,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13177,7 +13177,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -13217,7 +13217,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '11',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13279,7 +13279,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13301,7 +13301,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -13408,7 +13408,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -13470,7 +13470,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -13532,7 +13532,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -13584,7 +13584,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13606,7 +13606,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -13646,7 +13646,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13668,7 +13668,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -13708,7 +13708,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13730,7 +13730,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -13770,7 +13770,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13792,7 +13792,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -13832,7 +13832,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13854,7 +13854,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -13894,7 +13894,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -13916,7 +13916,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -13980,7 +13980,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14042,7 +14042,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14082,7 +14082,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14104,7 +14104,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14144,7 +14144,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14166,7 +14166,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14206,7 +14206,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14228,7 +14228,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14268,7 +14268,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14290,7 +14290,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14330,7 +14330,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14352,7 +14352,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14392,7 +14392,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14414,7 +14414,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14454,7 +14454,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14476,7 +14476,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14516,7 +14516,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14538,7 +14538,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14578,7 +14578,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '11',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14640,7 +14640,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14662,7 +14662,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14702,7 +14702,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14724,7 +14724,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14766,7 +14766,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14788,7 +14788,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14828,7 +14828,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14850,7 +14850,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14890,7 +14890,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14912,7 +14912,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -14952,7 +14952,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -14974,7 +14974,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -15028,7 +15028,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -15059,7 +15059,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -15081,7 +15081,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -15121,7 +15121,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -15143,7 +15143,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -15183,7 +15183,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 1000,
@@ -15205,7 +15205,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -15245,7 +15245,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '14',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -15267,7 +15267,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -15307,7 +15307,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '11',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -15403,7 +15403,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -15568,7 +15568,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -15610,7 +15610,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -15632,7 +15632,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -15672,7 +15672,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -15694,7 +15694,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -15734,7 +15734,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -15756,7 +15756,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -15796,7 +15796,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 99999999999999,
@@ -15880,7 +15880,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -15942,7 +15942,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -15982,7 +15982,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 100,
@@ -16004,7 +16004,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -16066,7 +16066,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -16168,7 +16168,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 100,
@@ -16190,7 +16190,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -16230,7 +16230,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 9999999999,
@@ -16252,7 +16252,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -16292,7 +16292,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 9999999999,
@@ -16314,7 +16314,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -16354,7 +16354,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 9999999999,
@@ -16376,7 +16376,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -16416,7 +16416,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 9999999999,
@@ -16500,7 +16500,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -16562,7 +16562,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -16602,7 +16602,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '15',
-        editable: false,
+        editable: true,
         rule: {
           min: 0,
           max: 100,
@@ -16709,7 +16709,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '11',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -16731,7 +16731,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -16771,7 +16771,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '13',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -16793,7 +16793,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -16833,7 +16833,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '11',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -16855,7 +16855,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -16895,7 +16895,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '11',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -16917,7 +16917,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -16957,7 +16957,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '12',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -16979,7 +16979,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -17019,7 +17019,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 1000,
@@ -17041,7 +17041,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -17081,7 +17081,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 1000,
@@ -17143,7 +17143,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 100,
@@ -17217,7 +17217,7 @@ export const allAttributetable = {
       },
       attributeValue: {
         moduleType: '12',
-        editable: false,
+        editable: true,
         rule: {
           min: null,
           max: null,
@@ -17239,7 +17239,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -17293,7 +17293,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -17346,7 +17346,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -17472,7 +17472,7 @@ export const allAttributetable = {
       },
       requiredFlag: {
         moduleType: null,
-        editable: false,
+        editable: true,
         value: true
       },
       attributeCode: {
@@ -17525,7 +17525,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -17565,7 +17565,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '11',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -17587,7 +17587,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -17649,7 +17649,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -17711,7 +17711,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -17773,7 +17773,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -17835,7 +17835,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -17897,7 +17897,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -17937,7 +17937,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 9999999999,
@@ -17999,7 +17999,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '15',
-            editable: false,
+            editable: true,
             rule: {
               min: 0,
               max: 9999999999,
@@ -18083,7 +18083,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -18145,7 +18145,7 @@ export const allAttributetable = {
           },
           requiredFlag: {
             moduleType: null,
-            editable: false,
+            editable: true,
             value: true
           },
           attributeCode: {
@@ -18185,7 +18185,7 @@ export const allAttributetable = {
           },
           attributeValue: {
             moduleType: '14',
-            editable: false,
+            editable: true,
             rule: {
               min: null,
               max: null,
@@ -18248,180 +18248,186 @@ export const allAttributetable = {
 // 灞炴�ц彍鍗曚俊鎭�
 export const tabs = {
   tabs: [
-    {
-      children: [
-        {
-          children: [
-            {
-              children: null,
-              name: 'grp010101',
-              label: '鍩烘湰淇℃伅'
-            },
-            {
-              children: null,
-              name: 'grp010102',
-              label: '鍩烘湰灞炴��'
-            },
-            {
-              children: null,
-              name: 'grp010103',
-              label: '鍕熼泦淇℃伅'
-            },
-            {
-              children: null,
-              name: 'grp010104',
-              label: '鏃ユ湡淇℃伅'
-            },
-            {
-              children: null,
-              name: 'grp010105',
-              label: '闄愬埗淇℃伅'
-            }
-          ],
-          name: null,
-          label: '鍩烘湰淇℃伅'
-        },
-        {
-          children: [
-            {
-              children: null,
-              name: 'grp010201',
-              label: '涓埛浜ゆ槗闄愬埗'
-            }
-          ],
-          name: null,
-          label: '涓埛浜ゆ槗闄愬埗'
-        },
-        {
-          children: [
-            {
-              children: null,
-              name: 'grp010301',
-              label: '鍩烘湰瑙勫垯'
-            },
-            {
-              children: null,
-              name: 'grp010302',
-              label: '浠介閿佸畾鏈�'
-            },
-            {
-              children: null,
-              name: 'grp010303',
-              label: '鍑�鍊艰鍒�'
-            },
-            {
-              children: null,
-              name: 'grp010304',
-              label: '鍏朵粬鍙傛暟'
-            },
-            {
-              children: null,
-              name: 'grp010305',
-              label: '璐圭敤澶勭悊鏂瑰紡'
-            },
-            {
-              children: null,
-              name: 'grp010306',
-              label: '澶ч闄愬埗'
-            },
-            {
-              children: [
-                {
-                  children: null,
-                  name: 'grp010401',
-                  label: '绮惧害澶勭悊鏂瑰紡'
-                }
-              ],
-              name: null,
-              label: '绮惧害澶勭悊'
-            }
-          ],
-          name: null,
-          label: '鍏朵粬鍙傛暟淇℃伅'
-        },
-        {
-          children: [
-            {
-              children: null,
-              name: 'grp010501',
-              label: '鍒╂伅璁＄畻鍙傛暟'
-            }
-          ],
-          name: null,
-          label: '鍒╂伅璁＄畻'
-        },
-        {
-          children: [
-            {
-              children: null,
-              name: 'grp010601',
-              label: '璧庡洖銆佽浆鎹㈠綊璧勪骇姣斾緥'
-            }
-          ],
-          name: null,
-          label: '褰掕祫浜ф瘮渚�'
-        },
-        {
-          children: [
-            {
-              children: null,
-              name: 'grp010701',
-              label: '鎶曡祫缁忕悊'
-            }
-          ],
-          name: null,
-          label: '鎶曡祫缁忕悊'
-        },
-        {
-          children: [
-            {
-              children: null,
-              name: 'grp010801',
-              label: '涓撴埛鎴栫鍕熺壒鏈�'
-            }
-          ],
-          name: null,
-          label: '涓撴埛鎴栫鍕熺壒鏈�'
-        },
-        {
-          children: [
-            {
-              children: null,
-              name: 'grp010901',
-              label: '璐у竵浜у搧鍙傛暟'
-            }
-          ],
-          name: null,
-          label: '璐у竵鍙傛暟'
-        }
-      ],
-      name: null,
-      label: '浜у搧淇℃伅'
-    },
+    // grp010101是重复的，注意之后改回来
     {
       children: null,
-      name: 'grp020100',
-      label: '浜у搧閿�鍞晢鍙傛暟'
+      name: 'grp010101',
+      label: '基本信息'
     },
-    {
-      children: null,
-      name: 'grp030000',
-      label: '娓呯畻澶╂暟璁剧疆'
-    },
-    {
-      children: null,
-      name: 'grp040000',
-      label: 'T+0浜у搧鏂规璁剧疆'
-    },
+    // {
+    //   children: [
+    //     {
+    //       children: [
+    //         {
+    //           children: null,
+    //           name: 'grp010101',
+    //           label: '基本信息'
+    //         },
+    //         {
+    //           children: null,
+    //           name: 'grp010102',
+    //           label: '鍩烘湰灞炴��'
+    //         },
+    //         {
+    //           children: null,
+    //           name: 'grp010103',
+    //           label: '鍕熼泦淇℃伅'
+    //         },
+    //         {
+    //           children: null,
+    //           name: 'grp010104',
+    //           label: '鏃ユ湡淇℃伅'
+    //         },
+    //         {
+    //           children: null,
+    //           name: 'grp010105',
+    //           label: '闄愬埗淇℃伅'
+    //         }
+    //       ],
+    //       name: null,
+    //       label: '基本信息'
+    //     },
+    //     {
+    //       children: [
+    //         {
+    //           children: null,
+    //           name: 'grp010201',
+    //           label: '涓埛浜ゆ槗闄愬埗'
+    //         }
+    //       ],
+    //       name: null,
+    //       label: '涓埛浜ゆ槗闄愬埗'
+    //     },
+    //     {
+    //       children: [
+    //         {
+    //           children: null,
+    //           name: 'grp010301',
+    //           label: '鍩烘湰瑙勫垯'
+    //         },
+    //         {
+    //           children: null,
+    //           name: 'grp010302',
+    //           label: '浠介閿佸畾鏈�'
+    //         },
+    //         {
+    //           children: null,
+    //           name: 'grp010303',
+    //           label: '鍑�鍊艰鍒�'
+    //         },
+    //         {
+    //           children: null,
+    //           name: 'grp010304',
+    //           label: '鍏朵粬鍙傛暟'
+    //         },
+    //         {
+    //           children: null,
+    //           name: 'grp010305',
+    //           label: '璐圭敤澶勭悊鏂瑰紡'
+    //         },
+    //         {
+    //           children: null,
+    //           name: 'grp010306',
+    //           label: '澶ч闄愬埗'
+    //         },
+    //         {
+    //           children: [
+    //             {
+    //               children: null,
+    //               name: 'grp010401',
+    //               label: '绮惧害澶勭悊鏂瑰紡'
+    //             }
+    //           ],
+    //           name: null,
+    //           label: '绮惧害澶勭悊'
+    //         }
+    //       ],
+    //       name: null,
+    //       label: '鍏朵粬鍙傛暟淇℃伅'
+    //     },
+    //     {
+    //       children: [
+    //         {
+    //           children: null,
+    //           name: 'grp010501',
+    //           label: '鍒╂伅璁＄畻鍙傛暟'
+    //         }
+    //       ],
+    //       name: null,
+    //       label: '鍒╂伅璁＄畻'
+    //     },
+    //     {
+    //       children: [
+    //         {
+    //           children: null,
+    //           name: 'grp010601',
+    //           label: '璧庡洖銆佽浆鎹㈠綊璧勪骇姣斾緥'
+    //         }
+    //       ],
+    //       name: null,
+    //       label: '褰掕祫浜ф瘮渚�'
+    //     },
+    //     {
+    //       children: [
+    //         {
+    //           children: null,
+    //           name: 'grp010701',
+    //           label: '鎶曡祫缁忕悊'
+    //         }
+    //       ],
+    //       name: null,
+    //       label: '鎶曡祫缁忕悊'
+    //     },
+    //     {
+    //       children: [
+    //         {
+    //           children: null,
+    //           name: 'grp010801',
+    //           label: '涓撴埛鎴栫鍕熺壒鏈�'
+    //         }
+    //       ],
+    //       name: null,
+    //       label: '涓撴埛鎴栫鍕熺壒鏈�'
+    //     },
+    //     {
+    //       children: [
+    //         {
+    //           children: null,
+    //           name: 'grp010901',
+    //           label: '璐у竵浜у搧鍙傛暟'
+    //         }
+    //       ],
+    //       name: null,
+    //       label: '璐у竵鍙傛暟'
+    //     }
+    //   ],
+    //   name: null,
+    //   label: '浜у搧淇℃伅'
+    // },
+    // {
+    //   children: null,
+    //   name: 'grp020100',
+    //   label: '浜у搧閿�鍞晢鍙傛暟'
+    // },
+    // {
+    //   children: null,
+    //   name: 'grp030000',
+    //   label: '娓呯畻澶╂暟璁剧疆'
+    // },
+    // {
+    //   children: null,
+    //   name: 'grp040000',
+    //   label: 'T+0浜у搧鏂规璁剧疆'
+    // },
     {
       children: null,
       name: 'grp050000',
       label: '浜у搧鍨祫TA璐︽埛璁剧疆'
     },
-    {
-      children: null,
-      name: 'grp060000',
-      label: 'T+0浜у搧寮�鏀炬湡鏃ラ棿娓呯畻鏃堕棿琛�'
-    }
+    // {
+    //   children: null,
+    //   name: 'grp060000',
+    //   label: 'T+0浜у搧寮�鏀炬湡鏃ラ棿娓呯畻鏃堕棿琛�'
+    // }
   ]
 }
