@@ -1,0 +1,134 @@
+<template>
+  <div>
+    <!-- 流程中心初始化完成并且拿到数据才能正常进行 -->
+    <el-container v-if="this.allAttributetable">
+      <el-aside width="200px">
+        <AttributesMenu
+          @handleSelect="selectMenuItem"
+          ref="attributesMenu"
+        ></AttributesMenu>
+      </el-aside>
+      <el-main>
+        <AttributesTable
+          ref="attributes-table"
+          :allAttributetable="allAttributetable"
+          :attributesId="attributesId"
+          :templateCode="templateCode"
+        ></AttributesTable>
+      </el-main>
+    </el-container>
+  </div>
+</template>
+
+<script>
+'use strict'
+import { headConfig, allAttributetable } from './data'
+
+import {
+  prodTplAttrQuery,
+  prodTplAttrApplyQuery,
+  prodtplApply,
+  agreeAddProdInfo,
+  prodInfoDoTask
+} from './viewApi'
+import AttributesMenu from './components/attributesMenu'
+import AttributesTable from './components/attributesTable'
+import { deleteChildrenParent } from '@/utils/productTemplate'
+export default {
+  provide: {
+    globalDisabled: true
+  },
+  components: {
+    AttributesMenu,
+    AttributesTable
+  },
+  data() {
+    return {
+      attributesId: '',
+      allAttributetable: null,
+      idList: [],
+      templateCode: '',
+      isReadonly: false,
+      // 和下一审核人组件配合
+      activeButton: ''
+    }
+  },
+  computed: {},
+  created() {
+    this.allAttributetable = allAttributetable
+  },
+  methods: {
+    selectMenuItem(val, idList) {
+      this.attributesId = val
+      this.idList = idList
+    },
+    openNextCheckerDialog(activeButton) {
+      this.activeButton = activeButton
+      this.nextCheckerDialogVisible = true
+    },
+
+    submitToInterface(type) {
+      if (!this.validateCurPage()) {
+        // 报错信息
+        return false
+      }
+      const { templateCode, templateName, kindId } = this.$route.query
+      deleteChildrenParent(this.allAttributetable)
+
+      let data = {
+        attrs: this.allAttributetable,
+        applyInfo: this.createdApplyInfo(type),
+        prodTpl: {
+          templateCode,
+          templateName,
+          kindId
+        }
+      }
+      console.log('发送', data)
+
+      prodtplApply(data).then(res => {
+        if (res.success) {
+          // this.nextCheckerDialogVisible = false
+          this.$message.success('操作成功')
+          this.backToFromPage()
+        }
+      })
+    },
+    validateCurPage() {
+      // 如果是详情页，无需校验
+      if (this.isReadonly) {
+        return true
+      }
+      if (this.$refs['attributes-table'].validate()) {
+        console.log('校验成功')
+        return true
+      } else {
+        this.$message.error('校验失败, 请正确填写属性信息')
+        return false
+      }
+    },
+
+  }
+}
+</script>
+<style scoped>
+.fun-btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.el-aside {
+  background-color: #fff;
+}
+
+.el-aside,
+.el-main {
+  height: 500px;
+}
+
+.el-aside {
+  overflow-x: hidden;
+}
+</style>
