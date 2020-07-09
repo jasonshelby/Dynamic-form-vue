@@ -78,12 +78,12 @@ export default {
       )
     },
     isDisabled() {
+      // 全局配置优先级最高，全局不可更改，个体不可更改
+      if (this.globalDisabled) return true
+      // 如果是选中标识那一列，是可以更改的
       if (this.colTag === 'selectedFlag') return false
-      if (this.globalDisabled) {
-        return true
-      } else {
-        return this.rowIsSelected ? this.editable === false : true
-      }
+      // 根据整行的选中情况，和自身的配置进行判断是否可以更改
+      return this.rowIsSelected ? this.editable === false : true
     },
     rowIsSelectedAndHidden() {
       return this.rowIsSelected && this.rowIsHidden
