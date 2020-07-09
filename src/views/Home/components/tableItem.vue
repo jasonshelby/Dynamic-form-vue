@@ -65,6 +65,7 @@ export default {
     },
     rowIsSelected() {
       const { selectedFlag = {} } = this.rowConfig
+      console.log(selectedFlag.value)
       return selectedFlag.value === true
     },
     rowIsHidden() {
@@ -77,6 +78,7 @@ export default {
       )
     },
     isDisabled() {
+      if (this.colTag === 'selectedFlag') return false
       if (this.globalDisabled) {
         return true
       } else {
