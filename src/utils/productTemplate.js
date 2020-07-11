@@ -13,7 +13,7 @@ export function addChildrenParent(allAttributetable, attributesId) {
     return res
 }
 
-export function deleteChildrenParent(allAttributetable) {
+export function deleteParentForChildren(allAttributetable) {
     Object.keys(allAttributetable).forEach(id => {
         const originData = allAttributetable[id]
         originData.forEach(item => {

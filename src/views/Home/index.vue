@@ -3,10 +3,7 @@
     <!-- 流程中心初始化完成并且拿到数据才能正常进行 -->
     <el-container v-if="this.allAttributetable">
       <el-aside width="200px">
-        <AttributesMenu
-          @handleSelect="selectMenuItem"
-          ref="attributesMenu"
-        ></AttributesMenu>
+        <AttributesMenu @handleSelect="selectMenuItem" ref="attributesMenu"></AttributesMenu>
       </el-aside>
       <el-main>
         <AttributesTable
@@ -26,7 +23,7 @@
 import { headConfig, allAttributetable } from './data'
 import AttributesMenu from './components/attributesMenu'
 import AttributesTable from './components/attributesTable'
-import { deleteChildrenParent } from '@/utils/productTemplate'
+import { deleteParentForChildren } from '@/utils/productTemplate'
 export default {
   provide: {
     globalDisabled: false
@@ -66,11 +63,29 @@ export default {
         return false
       }
       const { templateCode, templateName, kindId } = this.$route.query
-      deleteChildrenParent(this.allAttributetable)
+      deleteParentForChildren(this.allAttributetable)
 
-      let data = this.allAttributetable
-      console.log('数据：', data[this.attributesId])
-      alert(JSON.stringify(data[this.attributesId]))
+      let data = this.allAttributetable[this.attributesId]
+      data = data
+        .map(row => {
+          const res = {}
+          console.log(row)
+
+          Object.keys(row).forEach(keyName => {
+            if (keyName === 'children') return
+            res[keyName] = row[keyName].value
+          })
+          return res
+        })
+        .sort((a, b) => {
+          return a.seqNo - b.seqNo
+        })
+      console.log('数据：', data)
+
+      this.$router.push({
+        name: 'about',
+        params: data
+      })
     },
     validateCurPage() {
       // 如果是详情页，无需校验
@@ -84,8 +99,7 @@ export default {
         this.$message.error('校验失败, 请正确填写属性信息')
         return false
       }
-    },
-
+    }
   }
 }
 </script>
