@@ -27,6 +27,7 @@ export default {
   created() {
     this.tabs = tabs.tabs
     this.idList = findAllIds(this.tabs)
+    this.openMenuByIndex('grp010101')
   },
   mounted() {},
   methods: {
@@ -82,6 +83,7 @@ export default {
           <el-menu
             ref="attributes-menu"
             class="el-menu-vertical-demo"
+            default-active="grp010101"
             onSelect={this.handleSelect}
           >
             {renderSubmenu(this.tabs)}

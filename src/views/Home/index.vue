@@ -84,7 +84,9 @@ export default {
 
       this.$router.push({
         name: 'about',
-        params: data
+        params: {
+          data
+        }
       })
     },
     validateCurPage() {
